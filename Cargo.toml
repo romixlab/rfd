@@ -55,9 +55,9 @@ glib-sys = { version = "0.16", optional = true }
 gobject-sys = { version = "0.16", optional = true }
 
 [target.'cfg(target_arch = "wasm32")'.dependencies]
-wasm-bindgen = "0.2.69"
-js-sys = "0.3.46"
-web-sys = { version = "0.3.46", features = [
+wasm-bindgen = "0.2.87"
+js-sys = "0.3"
+web-sys = { version = "0.3.58", features = [
   'Document',
   'Element',
   'HtmlInputElement',
@@ -67,7 +67,7 @@ web-sys = { version = "0.3.46", features = [
   'FileList',
   'FileReader',
 ] }
-wasm-bindgen-futures = "0.4.19"
+wasm-bindgen-futures = "0.4"
 
 [[example]]
 name = "simple"
